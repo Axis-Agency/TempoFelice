@@ -1,23 +1,16 @@
-TempoFelice HP 採用文言・おしゃれ背景更新版
+TempoFelice HP SNS・公式LINE反映版
 
-今回GitHubで上書きが必要なファイル:
-recruit.html
-style.css
-
-全体を貼り直したい場合は、以下も含めて上書きアップロードしてOKです:
+今回GitHubで上書き/追加が必要なファイル:
 index.html
 recruit.html
+privacy.html
 style.css
-script.js
-README.md
 
-手順:
-1. ZIPを解凍
-2. 中の recruit.html と style.css を選択
-3. GitHubのリポジトリで Add file → Upload files
-4. 2ファイルをドラッグ&ドロップ
-5. Commit changes
-6. 数分後にサイトを確認
+写真ファイルをまだGitHubに上げていない場合は、以下も一緒に追加してください:
+hamamatsu-ekimae-exterior-1.jpg
+hamamatsu-ekimae-exterior-2.jpg
+
+全体を貼り直したい場合は、このフォルダ内のファイルをすべて上書きアップロードしてOKです。
 
 注意:
-フォルダごとではなく、中のファイルをアップロードしてください。
+フォルダごとではなく、中のファイルだけをアップロードしてください。

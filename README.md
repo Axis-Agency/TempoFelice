@@ -81,3 +81,26 @@ GitHubでは recruit.html と style.css を上書きアップロードしてく�
 採用ページのメッセージを「プライベートも大切にしながら仕事で成長し、人生を幸福な時間へ」という方向に変更しました。
 CSSに背景グリッド、装飾グラデーション、カードの質感、ヒーロー枠線などを追加し、爽やかでおしゃれな印象に調整しました。
 GitHubでは recruit.html と style.css を上書きアップロードしてください。
+
+
+## Crafted no-photo update
+写真なしでも見栄えがするよう、抽象的な眉ビジュアル、選ばれる理由、施術の流れ、FAQ、スクロール表示アニメーションを追加しました。
+GitHubでは index.html / style.css / script.js を上書きアップロードしてください。
+
+
+## Hamamatsu Ekimae photos and Google Maps update
+浜松駅前店の外観写真2枚を店舗カードに追加しました。
+各店舗カードにGoogleマップの埋め込みと「Google Map」ボタンを追加しました。
+GitHubでは index.html / style.css / hamamatsu-ekimae-exterior-1.jpg / hamamatsu-ekimae-exterior-2.jpg を上書き・追加アップロードしてください。
+
+
+## Privacy page and company info update
+Company欄に所在地・設立日を追加しました。
+privacy.html を新規作成し、トップページ・採用ページのフッターに Privacy Policy リンクを追加しました。
+GitHubでは index.html / recruit.html / privacy.html / style.css を上書き・追加アップロードしてください。
+
+
+## Social links update
+会社公式LINE、静岡店のInstagram/公式LINE、鹿児島天文館店のInstagram/公式LINEを反映しました。
+採用ページの応募相談導線とプライバシーポリシーのお問い合わせ先を会社公式LINEに変更しました。
+GitHubでは index.html / recruit.html / privacy.html / style.css を上書きしてください。
