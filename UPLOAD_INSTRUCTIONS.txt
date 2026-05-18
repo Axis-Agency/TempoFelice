@@ -1,0 +1,23 @@
+TempoFelice HP 採用文言・おしゃれ背景更新版
+
+今回GitHubで上書きが必要なファイル:
+recruit.html
+style.css
+
+全体を貼り直したい場合は、以下も含めて上書きアップロードしてOKです:
+index.html
+recruit.html
+style.css
+script.js
+README.md
+
+手順:
+1. ZIPを解凍
+2. 中の recruit.html と style.css を選択
+3. GitHubのリポジトリで Add file → Upload files
+4. 2ファイルをドラッグ&ドロップ
+5. Commit changes
+6. 数分後にサイトを確認
+
+注意:
+フォルダごとではなく、中のファイルをアップロードしてください。
