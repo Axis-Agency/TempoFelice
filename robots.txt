@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://axis-agency.github.io/TempoFelice/sitemap.xml
