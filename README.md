@@ -15,3 +15,7 @@ Hot Pepper Beautyの口コミ傾向をもとに、Voiceセクションを要約�
 ## Full cancellation policy update
 キャンセルポリシーをトップFAQ、店舗紹介ページ、店舗別ページに反映しました。
 前日リマインド文面は reservation-reminder-template.txt として同梱しています。
+
+## Layout fix update
+トップの写真スタック、ヘッダーナビ、店舗ボタン、スマホ表示のズレを抑えるCSS修正版を追加しました。
+主な変更ファイルは style.css です。

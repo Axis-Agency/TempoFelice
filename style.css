@@ -92,3 +92,192 @@
   font-weight: 700;
   font-size: 13px;
 }
+
+
+/* Layout fix 2026-05-22
+   Prevent photo stack, nav, buttons, and grids from drifting or overlapping. */
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 460px);
+  gap: clamp(28px, 5vw, 72px);
+  align-items: center;
+}
+
+.hero-inner {
+  max-width: 720px;
+}
+
+.brand-photo-stack {
+  position: relative !important;
+  right: auto !important;
+  top: auto !important;
+  width: 100% !important;
+  max-width: 460px;
+  justify-self: end;
+  z-index: 3;
+}
+
+.brand-photo-stack img {
+  max-width: 100%;
+}
+
+.site-header {
+  min-height: 72px;
+}
+
+.site-nav {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  row-gap: 8px;
+}
+
+.store-links {
+  align-items: center;
+}
+
+.store-links .button {
+  white-space: nowrap;
+}
+
+.faq-list details {
+  max-width: 100%;
+}
+
+.company-list div,
+.store-info-list div,
+.condition-list div {
+  min-width: 0;
+}
+
+.company-list dd,
+.store-info-list dd,
+.condition-list dd {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.store-map iframe {
+  max-width: 100%;
+}
+
+@media (max-width: 1180px) {
+  .site-nav {
+    gap: 14px;
+    font-size: 13px;
+  }
+
+  .nav-button {
+    padding: 9px 14px;
+  }
+
+  .hero {
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 380px);
+  }
+}
+
+@media (max-width: 980px) {
+  .nav-toggle {
+    display: block;
+  }
+
+  .site-nav {
+    position: fixed;
+    top: 71px;
+    left: 16px;
+    right: 16px;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 22px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    background: rgba(255, 253, 247, 0.96);
+    box-shadow: var(--shadow);
+    font-size: 14px;
+  }
+
+  .site-nav.is-open {
+    display: flex;
+  }
+
+  .hero {
+    display: block;
+    min-height: auto;
+    padding-top: 74px;
+  }
+
+  .brand-photo-stack {
+    width: min(100%, 520px) !important;
+    margin: 42px auto 0;
+    justify-self: center;
+  }
+
+  .brand-photo-stack img:first-child,
+  .brand-photo-stack img:nth-child(2),
+  .brand-photo-stack img:nth-child(3) {
+    width: 100%;
+    height: 220px;
+    margin-top: 0;
+  }
+
+  .brand-photo-stack img:nth-child(2),
+  .brand-photo-stack img:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .section {
+    width: min(100% - 28px, var(--max));
+  }
+
+  .hero,
+  .recruit-hero,
+  .store-page-hero,
+  .privacy-hero {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .store-links {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .store-links .button {
+    width: 100%;
+  }
+
+  .payment-list,
+  .salon-teaser-list {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 560px) {
+  .hero-actions,
+  .company-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .brand-photo-stack img:first-child {
+    height: 240px;
+  }
+
+  .store-body,
+  .service-card,
+  .why-card,
+  .voice-card,
+  .recruit-card,
+  .workstyle-card,
+  .store-detail-panel,
+  .privacy-panel,
+  .message-panel {
+    padding: 22px;
+  }
+
+  .policy-note li {
+    padding-left: 40px;
+  }
+}
