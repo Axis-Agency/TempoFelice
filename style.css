@@ -486,3 +486,207 @@ body{padding-bottom:76px}.section{width:min(100% - 28px,var(--max))!important;pa
     grid-template-columns: 1fr;
   }
 }
+
+
+/* Typography and map stability fix 2026-06-16
+   Improves Japanese text balance across PC/tablet/mobile and fixes map fallback readability. */
+body {
+  font-size: 16px;
+  line-height: 1.86;
+  letter-spacing: 0.025em;
+  font-feature-settings: "palt";
+}
+
+h1, h2, h3 {
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+
+h1 {
+  font-size: clamp(38px, 6.4vw, 76px) !important;
+  line-height: 1.22 !important;
+  letter-spacing: 0.035em !important;
+}
+
+h2 {
+  font-size: clamp(28px, 4.2vw, 48px) !important;
+  line-height: 1.34 !important;
+  letter-spacing: 0.035em !important;
+}
+
+h3 {
+  font-size: clamp(18px, 2vw, 21px);
+  line-height: 1.52;
+}
+
+.lead,
+.hero-text,
+.section-heading p,
+.service-card p,
+.why-card p,
+.voice-card p,
+.store-body p,
+.recruit-card p,
+.workstyle-card p,
+.message-panel p,
+.privacy-panel p {
+  line-height: 1.9;
+  letter-spacing: 0.018em;
+}
+
+.section-heading {
+  max-width: 780px;
+}
+
+.section-heading p {
+  max-width: 720px;
+}
+
+.hero-inner {
+  max-width: 760px;
+}
+
+.hero-text {
+  max-width: 660px;
+  font-size: clamp(15px, 1.45vw, 17px);
+}
+
+.eyebrow {
+  letter-spacing: 0.14em;
+}
+
+.service-card,
+.why-card,
+.voice-card,
+.recruit-card,
+.workstyle-card,
+.store-body,
+.store-detail-panel,
+.message-panel,
+.privacy-panel {
+  word-break: auto-phrase;
+}
+
+.store-info-list dd,
+.company-list dd,
+.condition-list dd,
+.recruit-apply-card p {
+  line-height: 1.78;
+}
+
+.store-map iframe,
+.large-map iframe {
+  width: 100%;
+  border: 0;
+  display: block;
+  background: rgba(255,255,255,.7);
+}
+
+.map-fallback {
+  margin: 10px 0 0;
+  color: var(--brown-soft);
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.map-fallback a {
+  color: var(--mint-deep);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (min-width: 1101px) {
+  .hero {
+    min-height: 700px !important;
+  }
+
+  .hero h1 {
+    max-width: 760px;
+  }
+
+  .section-heading.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1100px) {
+  body {
+    font-size: 15.5px;
+  }
+
+  h1 {
+    font-size: clamp(38px, 7vw, 58px) !important;
+  }
+
+  h2 {
+    font-size: clamp(27px, 5vw, 40px) !important;
+  }
+
+  .hero-text,
+  .lead {
+    max-width: 720px;
+  }
+
+  .site-nav {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 15px;
+    line-height: 1.84;
+    letter-spacing: 0.012em;
+  }
+
+  h1 {
+    font-size: clamp(34px, 10.5vw, 44px) !important;
+    line-height: 1.24 !important;
+    margin-bottom: 18px !important;
+  }
+
+  h2 {
+    font-size: clamp(25px, 7vw, 34px) !important;
+    line-height: 1.38 !important;
+    margin-bottom: 18px !important;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .eyebrow {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+
+  .lead,
+  .hero-text,
+  .section-heading p,
+  .service-card p,
+  .why-card p,
+  .voice-card p,
+  .store-body p,
+  .message-panel p {
+    line-height: 1.82;
+  }
+
+  .section-heading {
+    margin-bottom: 28px;
+  }
+
+  .store-map iframe {
+    min-height: 220px;
+  }
+
+  .large-map iframe {
+    min-height: 260px;
+  }
+
+  .map-fallback {
+    font-size: 12.5px;
+  }
+}

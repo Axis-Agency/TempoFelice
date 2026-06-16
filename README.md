@@ -46,3 +46,6 @@ PC・タブレット・スマホで表示を切り分け、OGP画像、favicon�
 
 ## Recruit form URL update
 採用ページにGoogleフォームURLを反映しました。
+
+## Typography and Map fix
+文字バランスを調整し、MAPのURL崩れを修正しました。MAP下にGoogleマップで開くフォールバックリンクを追加しています。
