@@ -49,3 +49,6 @@ PC・タブレット・スマホで表示を切り分け、OGP画像、favicon�
 
 ## Typography and Map fix
 文字バランスを調整し、MAPのURL崩れを修正しました。MAP下にGoogleマップで開くフォールバックリンクを追加しています。
+
+## Store information correction
+浜松店以外の店舗情報・住所・Google Mapリンクの混線を修正し、4店舗の正式情報を再反映しました。
