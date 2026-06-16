@@ -19,3 +19,11 @@ Hot Pepper Beautyの口コミ傾向をもとに、Voiceセクションを要約�
 ## Layout fix update
 トップの写真スタック、ヘッダーナビ、店舗ボタン、スマホ表示のズレを抑えるCSS修正版を追加しました。
 主な変更ファイルは style.css です。
+
+## Photo overlap fix
+トップページと店舗詳細ページの写真が重なって見える問題を修正しました。
+写真の重なり演出をやめ、整列したグリッド表示に変更しています。
+主な変更ファイルは style.css です。
+
+## 85+ responsive polish
+PC・タブレット・スマホで表示を切り分け、OGP画像、favicon、スマホ固定CTAを追加しました。
