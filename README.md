@@ -52,3 +52,9 @@ PC・タブレット・スマホで表示を切り分け、OGP画像、favicon�
 
 ## Store information correction
 浜松店以外の店舗情報・住所・Google Mapリンクの混線を修正し、4店舗の正式情報を再反映しました。
+
+## Official Google Maps iframe update
+4店舗のMAP表示をGoogleマップ公式iframe埋め込みURLに差し替えました。
+
+## Kagoshima Hot Pepper final fix
+鹿児島天文館店のHot Pepper Beauty準備中表示を修正し、予約URLへ差し替えました。

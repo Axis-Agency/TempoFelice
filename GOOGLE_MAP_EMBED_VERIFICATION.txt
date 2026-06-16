@@ -1,0 +1,8 @@
+Google Map公式iframe反映済み
+
+浜松店: 公式iframe反映済み
+浜松駅前店: 公式iframe反映済み
+静岡店: 公式iframe反映済み
+鹿児島天文館店: 公式iframe反映済み
+
+注意: maps.app.goo.gl の共有URLはボタン用、google.com/maps/embed?pb=... はHP内表示用として使い分けています。

@@ -690,3 +690,22 @@ h3 {
     font-size: 12.5px;
   }
 }
+
+
+/* Official Google Maps iframe fix 2026-06-16 */
+.store-map iframe,
+.large-map iframe {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 320px;
+  border: 0 !important;
+  border-radius: 22px;
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .store-map iframe,
+  .large-map iframe {
+    min-height: 240px;
+  }
+}
