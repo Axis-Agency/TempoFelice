@@ -1,0 +1,4 @@
+静岡店 内装写真反映
+追加画像: shizuoka-interior-1.jpg
+カード用画像: shizuoka-interior-card.jpg
+店舗一覧ページと静岡店詳細ページに反映しました。

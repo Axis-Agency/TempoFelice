@@ -61,3 +61,9 @@ PC・タブレット・スマホで表示を切り分け、OGP画像、favicon�
 
 ## Kagoshima phone update
 鹿児島天文館店の電話番号 099-801-3501 を反映しました。
+
+## Shizuoka interior photo update
+静岡店の内装写真を追加し、店舗一覧ページと静岡店詳細ページへ反映しました。
+
+## Kagoshima Tenmonkan photo update
+鹿児島天文館店の外観・内装写真を追加し、店舗一覧ページと詳細ページへ反映しました。
