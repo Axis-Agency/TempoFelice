@@ -58,3 +58,6 @@ PC・タブレット・スマホで表示を切り分け、OGP画像、favicon�
 
 ## Kagoshima Hot Pepper final fix
 鹿児島天文館店のHot Pepper Beauty準備中表示を修正し、予約URLへ差し替えました。
+
+## Kagoshima phone update
+鹿児島天文館店の電話番号 099-801-3501 を反映しました。

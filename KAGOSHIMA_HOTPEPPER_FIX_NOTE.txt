@@ -1,3 +1,5 @@
 鹿児島天文館店 Hot Pepper Beauty 修正
 URL: https://beauty.hotpepper.jp/kr/slnH000813561/
 店舗一覧ページ・鹿児島天文館店詳細ページ・スマホ固定CTAの準備中表示を修正しました。
+
+鹿児島天文館店 電話番号反映: 099-801-3501
