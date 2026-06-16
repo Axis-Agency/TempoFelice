@@ -27,3 +27,22 @@ Hot Pepper Beautyの口コミ傾向をもとに、Voiceセクションを要約�
 
 ## 85+ responsive polish
 PC・タブレット・スマホで表示を切り分け、OGP画像、favicon、スマホ固定CTAを追加しました。
+
+## Kagoshima Hot Pepper update
+鹿児島天文館店のHot Pepper URLを反映しました。
+
+## Google Maps URL update
+4店舗のGoogleマップ共有URLを反映しました。
+
+## Recruit conditions update
+美容サロン採用条件（美容師免許不要・あれば優遇、未経験OK、研修期間2週間〜1か月半）を反映しました。
+
+## Recruit application update
+研修中給与（同条件）、研修内容、応募方法、面接方法を採用ページに反映しました。
+
+## Beauty-only recruit update
+採用ページとHP内の採用訴求を美容サロン採用中心に整理し、モバイル採用要素を一旦外しました。
+専用フォーム案からInstagramアカウント項目・希望面接方法項目を外しました。
+
+## Recruit form URL update
+採用ページにGoogleフォームURLを反映しました。

@@ -417,3 +417,72 @@ body{padding-bottom:76px}.section{width:min(100% - 28px,var(--max))!important;pa
 .mobile-quick-cta{position:fixed;left:12px;right:12px;bottom:12px;z-index:200;display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:8px;border-radius:999px;background:rgba(255,253,247,.94);border:1px solid rgba(93,74,61,.12);box-shadow:0 16px 44px rgba(93,74,61,.18);backdrop-filter:blur(14px)}.mobile-quick-cta a{display:grid;place-items:center;min-height:44px;border-radius:999px;font-size:13px;font-weight:700;color:var(--brown);background:rgba(255,255,255,.8);border:1px solid rgba(93,74,61,.1)}.mobile-quick-cta a:first-child{color:#fff;background:linear-gradient(135deg,#7db29d,#9ed6bf 50%,#d4ad63 120%)}
 }
 @media (min-width:768px){.mobile-quick-cta{display:none!important}}
+
+/* Recruit conditions update */
+.recruit-conditions .condition-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.recruit-conditions .condition-list div {
+  display: block;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 16px 42px rgba(93, 74, 61, 0.08);
+}
+
+.recruit-conditions dt {
+  margin-bottom: 8px;
+  color: var(--green);
+  font-weight: 700;
+}
+
+.recruit-conditions dd {
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .recruit-conditions .condition-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Recruit apply flow update */
+.recruit-apply-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.recruit-apply-card {
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.74);
+  box-shadow: 0 16px 42px rgba(93, 74, 61, 0.08);
+}
+
+.recruit-apply-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: var(--brown);
+}
+
+.recruit-apply-card p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1100px) {
+  .recruit-apply-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .recruit-apply-grid {
+    grid-template-columns: 1fr;
+  }
+}
