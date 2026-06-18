@@ -709,3 +709,284 @@ h3 {
     min-height: 240px;
   }
 }
+
+/* Final typography balance update */
+:root {
+  --content-wide: 1120px;
+  --content-medium: 920px;
+  --content-narrow: 720px;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", "YuGothic", "Meiryo", system-ui, sans-serif;
+  font-size: clamp(15px, 0.45vw + 13px, 16.5px);
+  line-height: 1.88;
+  letter-spacing: 0.018em;
+  overflow-wrap: anywhere;
+}
+
+p, li, dd {
+  line-height: 1.88;
+}
+
+p {
+  max-width: 42em;
+}
+
+h1, h2, h3, .balanced-title {
+  font-family: "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", serif;
+  text-wrap: balance;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+h1, .balanced-title {
+  font-size: clamp(36px, 5.2vw, 64px) !important;
+  line-height: 1.28 !important;
+  letter-spacing: 0.045em !important;
+  max-width: 11.5em;
+}
+
+h2 {
+  font-size: clamp(27px, 3.3vw, 42px) !important;
+  line-height: 1.42 !important;
+  letter-spacing: 0.04em !important;
+  max-width: 13.5em;
+}
+
+h3 {
+  font-size: clamp(18px, 1.4vw, 21px) !important;
+  line-height: 1.58 !important;
+  letter-spacing: 0.035em;
+}
+
+.section-heading,
+.section-heading.center,
+.section-heading.centered {
+  max-width: var(--content-narrow);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-heading p,
+.lead,
+.hero-text {
+  max-width: 39em;
+  line-height: 1.92;
+}
+
+.hero-inner {
+  max-width: 780px;
+}
+
+.hero h1 + p,
+.hero-text {
+  margin-top: 18px;
+}
+
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.service-card p,
+.why-card p,
+.voice-card p,
+.store-body p,
+.recruit-card p,
+.workstyle-card p,
+.message-panel p,
+.privacy-panel p,
+.store-detail-panel p {
+  max-width: 38em;
+  line-height: 1.86;
+}
+
+.store-body h3,
+.store-detail-panel h2,
+.recruit-card h3,
+.service-card h3,
+.why-card h3 {
+  max-width: 100%;
+}
+
+.store-description {
+  font-size: 0.97em;
+}
+
+.company-list dt,
+.detail-list dt,
+.store-info-list dt {
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+.company-list dd,
+.detail-list dd,
+.store-info-list dd {
+  line-height: 1.75;
+}
+
+.button,
+.nav-button {
+  letter-spacing: 0.04em;
+  line-height: 1.3;
+}
+
+.sp-br {
+  display: none;
+}
+
+@media (min-width: 1101px) {
+  .section {
+    padding-top: clamp(80px, 8vw, 120px);
+    padding-bottom: clamp(80px, 8vw, 120px);
+  }
+
+  .hero h1 {
+    max-width: 11.5em;
+  }
+
+  .hero-text {
+    font-size: 16.5px;
+  }
+
+  .store-detail-grid,
+  .store-grid,
+  .service-grid,
+  .why-grid {
+    row-gap: 34px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1100px) {
+  body {
+    font-size: 15.5px;
+    line-height: 1.86;
+  }
+
+  h1, .balanced-title {
+    font-size: clamp(34px, 5.8vw, 52px) !important;
+    line-height: 1.3 !important;
+  }
+
+  h2 {
+    font-size: clamp(26px, 4.2vw, 36px) !important;
+  }
+
+  .section-heading {
+    max-width: 680px;
+  }
+
+  .site-nav {
+    font-size: 13.5px;
+    gap: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 14.8px;
+    line-height: 1.82;
+    letter-spacing: 0.012em;
+  }
+
+  h1, .balanced-title {
+    font-size: clamp(31px, 9.2vw, 40px) !important;
+    line-height: 1.34 !important;
+    letter-spacing: 0.035em !important;
+    max-width: 10.8em;
+  }
+
+  h2 {
+    font-size: clamp(24px, 6.5vw, 31px) !important;
+    line-height: 1.46 !important;
+    letter-spacing: 0.032em !important;
+    max-width: 11.5em;
+  }
+
+  h3 {
+    font-size: 17px !important;
+    line-height: 1.55 !important;
+  }
+
+  p, li, dd {
+    line-height: 1.78;
+  }
+
+  .sp-br {
+    display: block;
+  }
+
+  .hero-inner,
+  .section-heading,
+  .section-heading.center,
+  .section-heading.centered {
+    max-width: 100%;
+  }
+
+  .hero-text,
+  .lead,
+  .section-heading p {
+    font-size: 14.8px;
+    line-height: 1.82;
+    max-width: 100%;
+  }
+
+  .eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    margin-bottom: 8px;
+  }
+
+  .section {
+    padding-top: 58px;
+    padding-bottom: 58px;
+  }
+
+  .service-card,
+  .why-card,
+  .voice-card,
+  .store-card,
+  .recruit-card,
+  .message-panel,
+  .privacy-panel,
+  .store-detail-panel {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .store-body p,
+  .service-card p,
+  .why-card p,
+  .voice-card p,
+  .recruit-card p,
+  .message-panel p {
+    font-size: 14.5px;
+    line-height: 1.78;
+  }
+
+  .company-list,
+  .detail-list,
+  .store-info-list {
+    font-size: 14px;
+  }
+
+  .store-info-list div,
+  .detail-list div,
+  .company-list div {
+    gap: 6px;
+  }
+
+  .button,
+  .nav-button {
+    font-size: 13.5px;
+  }
+}

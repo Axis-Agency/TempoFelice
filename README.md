@@ -67,3 +67,6 @@ PC・タブレット・スマホで表示を切り分け、OGP画像、favicon�
 
 ## Kagoshima Tenmonkan photo update
 鹿児島天文館店の外観・内装写真を追加し、店舗一覧ページと詳細ページへ反映しました。
+
+## Final typography balance update
+見出しサイズ、行間、本文幅、スマホ改行を調整し、文字のバランスを改善しました。
