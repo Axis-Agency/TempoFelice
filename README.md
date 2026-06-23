@@ -70,3 +70,6 @@ PC・タブレット・スマホで表示を切り分け、OGP画像、favicon�
 
 ## Final typography balance update
 見出しサイズ、行間、本文幅、スマホ改行を調整し、文字のバランスを改善しました。
+
+## Mobile-first typography balance update
+スマホ表示を優先し、見出しサイズ、行間、改行位置、店舗名の途中改行防止を調整しました。

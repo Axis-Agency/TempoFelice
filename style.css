@@ -990,3 +990,31 @@ h3 {
     font-size: 13.5px;
   }
 }
+
+/* Mobile-first typography balance update */
+.pc-copy{display:inline}.sp-copy{display:none}.nowrap{white-space:nowrap}
+.mobile-balanced-title,.mobile-balanced-heading{text-wrap:balance}
+@media (max-width:767px){
+  body{font-size:15px!important;line-height:1.82!important;letter-spacing:.01em!important;line-break:strict;word-break:normal;overflow-wrap:break-word}
+  .pc-copy{display:none!important}.sp-copy{display:inline!important}.sp-copy br{display:block}.nowrap{white-space:nowrap}
+  h1,.balanced-title,.mobile-balanced-title{font-size:clamp(29px,8.4vw,37px)!important;line-height:1.42!important;letter-spacing:.028em!important;max-width:11.2em!important;margin-left:auto;margin-right:auto;text-align:center;word-break:keep-all;overflow-wrap:normal}
+  h2,.mobile-balanced-heading{font-size:clamp(22px,6.1vw,29px)!important;line-height:1.52!important;letter-spacing:.026em!important;max-width:12.5em!important;margin-left:auto;margin-right:auto;text-align:center;word-break:keep-all;overflow-wrap:normal}
+  h3{font-size:17px!important;line-height:1.62!important;letter-spacing:.025em!important;word-break:normal}
+  p,li,dd{line-height:1.82!important}p{max-width:100%!important}
+  .hero{text-align:center}.hero-inner{max-width:100%!important;padding-left:18px;padding-right:18px}
+  .hero-text,.lead,.section-heading p{font-size:14.8px!important;line-height:1.86!important;letter-spacing:.012em!important;max-width:100%!important;margin-left:auto;margin-right:auto}
+  .eyebrow{font-size:10.8px!important;line-height:1.5!important;letter-spacing:.14em!important;margin-bottom:9px!important}
+  .section,section{padding-top:54px!important;padding-bottom:54px!important}
+  .section-heading,.section-heading.center,.section-heading.centered{max-width:100%!important;padding-left:18px;padding-right:18px;text-align:center}
+  .service-card,.why-card,.voice-card,.store-card,.recruit-card,.workstyle-card,.message-panel,.privacy-panel,.store-detail-panel,.faq-item{padding-left:18px!important;padding-right:18px!important}
+  .service-card p,.why-card p,.voice-card p,.store-body p,.recruit-card p,.workstyle-card p,.message-panel p,.privacy-panel p,.store-detail-panel p,.faq-item p{font-size:14.6px!important;line-height:1.82!important;letter-spacing:.006em!important}
+  .store-body h3,.service-card h3,.why-card h3,.recruit-card h3,.store-detail-panel h2{text-align:left;max-width:100%!important;margin-left:0;margin-right:0;word-break:normal;overflow-wrap:break-word}
+  .detail-list,.store-info-list,.company-list{font-size:14px!important;line-height:1.72!important}
+  .detail-list div,.store-info-list div,.company-list div{grid-template-columns:6.5em 1fr!important;gap:8px!important;align-items:start}
+  .detail-list dt,.store-info-list dt,.company-list dt{font-size:12.5px!important;letter-spacing:.06em!important;white-space:nowrap}
+  .detail-list dd,.store-info-list dd,.company-list dd{font-size:14px!important;line-height:1.72!important;word-break:normal;overflow-wrap:break-word}
+  .button,.nav-button,.store-links a,.store-links span{font-size:13.4px!important;line-height:1.35!important;letter-spacing:.035em!important;padding-top:11px!important;padding-bottom:11px!important}
+  .site-nav,nav{font-size:13px!important;line-height:1.35!important}
+  .mobile-quick-cta a{font-size:13px!important;line-height:1.25!important;letter-spacing:.03em!important}
+}
+@media (min-width:768px){.sp-copy{display:none!important}.pc-copy{display:inline!important}.mobile-balanced-title,.mobile-balanced-heading{text-align:inherit}}
