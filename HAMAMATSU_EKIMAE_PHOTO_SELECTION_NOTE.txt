@@ -1,0 +1,8 @@
+浜松駅前店 写真選定・反映
+採用写真:
+- 外観: hamamatsu-ekimae-new-exterior.jpg
+- 入口看板: hamamatsu-ekimae-new-entrance.jpg
+- 施術スペース: hamamatsu-ekimae-new-treatment-room.jpg
+- 施術ルーム: hamamatsu-ekimae-new-treatment-room-2.jpg
+- 店舗一覧カード: hamamatsu-ekimae-new-card.jpg
+反映箇所: salon.html / hamamatsu-ekimae.html / 構造化データ image

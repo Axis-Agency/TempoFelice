@@ -1,0 +1,8 @@
+浜松店 写真選定・反映
+採用写真:
+- 外観: hamamatsu-new-exterior.jpg
+- 受付・内装: hamamatsu-new-reception.jpg
+- 施術スペース: hamamatsu-new-treatment-room.jpg
+- 施術道具: hamamatsu-new-tools.jpg
+- 店舗一覧カード: hamamatsu-new-card.jpg
+反映箇所: salon.html / hamamatsu.html / 構造化データ image

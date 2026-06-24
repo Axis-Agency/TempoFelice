@@ -1,0 +1,4 @@
+Google Search Console 確認用HTMLファイルを追加しました。
+追加ファイル: googleb1eaf96af4dc6613.html
+このファイルは index.html と同じ階層に配置してください。
+GitHubに上書きアップロード後、Search Consoleに戻って「確認」を押してください。

@@ -73,3 +73,12 @@ PC・タブレット・スマホで表示を切り分け、OGP画像、favicon�
 
 ## Mobile-first typography balance update
 スマホ表示を優先し、見出しサイズ、行間、改行位置、店舗名の途中改行防止を調整しました。
+
+## Google Search Console verification
+確認用HTMLファイル `googleb1eaf96af4dc6613.html` をルート階層に追加しました。
+
+## Hamamatsu photo update
+浜松店の外観・受付内装・施術スペース・施術道具写真を選定し、店舗一覧ページと浜松店詳細ページへ反映しました。
+
+## Hamamatsu Ekimae photo update
+浜松駅前店の外観・入口看板・施術スペース写真を選定し、店舗一覧ページと浜松駅前店詳細ページへ反映しました。
