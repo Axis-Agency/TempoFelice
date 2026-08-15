@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 10,
+  "schemaVersion": 11,
   "lastUpdated": "2026-08-15",
   "siteBaseUrl": "https://axis-agency.github.io/TempoFelice/",
   "application": {
@@ -18,8 +18,9 @@
     "address": "静岡県浜松市中央区寺島町17 フレクション浜松1-104",
     "contactMethods": [
       "採用応募フォーム",
-      "会社公式LINE"
-    ]
+      "公式問い合わせメール"
+    ],
+    "email": "info@axis-agency.llc"
   },
   "jobs": {
     "hamamatsu": {

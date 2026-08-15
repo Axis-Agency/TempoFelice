@@ -1,0 +1,23 @@
+{
+  "release": "v1.9.2",
+  "date": "2026-08-15",
+  "theme": "OFFICIAL CONTACT EMAIL / CORPORATE + RECRUIT CONTACT CONSISTENCY",
+  "base": "v1.9.1",
+  "officialContact": {
+    "email": "info@axis-agency.llc",
+    "uses": [
+      "採用関係の問い合わせ",
+      "お客様からの問い合わせ",
+      "企業・取材・その他の問い合わせ"
+    ],
+    "reservationPolicy": "空席確認・予約・予約変更は各店舗のHot Pepper Beauty / 店舗公式LINE等の既存予約窓口を優先"
+  },
+  "changes": [
+    "Contactページで公式メールを用途別に明示",
+    "CompanyページとOrganization構造化データへ公式メールを追加",
+    "採用TOP・採用ガイド・仕事内容・働き方・応募・応募完了・4店舗求人の採用相談窓口を公式メールへ統一",
+    "4店舗JobPostingのhiringOrganizationへ公式メールを追加",
+    "Privacy Policyの問い合わせ窓口を公式メールへ更新",
+    "recruit-jobs.jsonをschemaVersion 11へ更新"
+  ]
+}
