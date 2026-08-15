@@ -1,0 +1,52 @@
+{
+  "release": "v1.9.1",
+  "date": "2026-08-15",
+  "theme": "COMPENSATION EMPHASIS / 80万以上50% / EXACT SALARY BREAKDOWN",
+  "base": "v1.9.0",
+  "compensation": {
+    "advertisedMonthlySalaryMin": 200000,
+    "baseSalary": 176000,
+    "attendanceAllowance": 10000,
+    "attendanceAllowanceConditional": true,
+    "fixedOvertimeAllowance": 14532,
+    "fixedOvertimeHours": 10,
+    "exactReferenceTotalWithAttendance": 200532,
+    "transportationAllowance": "別途",
+    "salesLinkedMethod": "固定給側と売上連動型給与の算定額を比較し、高い方を支給",
+    "tiers": [
+      {
+        "sales": "500,000円超〜800,000円未満",
+        "rate": "40%"
+      },
+      {
+        "sales": "800,000円以上",
+        "rate": "50%"
+      }
+    ],
+    "examples": [
+      {
+        "sales": 800000,
+        "grossCalc": 400000
+      },
+      {
+        "sales": 900000,
+        "grossCalc": 450000
+      },
+      {
+        "sales": 1000000,
+        "grossCalc": 500000
+      }
+    ]
+  },
+  "presentationPolicy": [
+    "採用ページでは「月給20万円〜」を安心材料として表示し、その直下に給与内訳を公開する。",
+    "歩合の魅力は80万円→40万円、90万円→45万円、100万円→50万円の算定例で視覚的に強調する。",
+    "売上連動型給与は固定給への上乗せではなく、固定給側と比較して高い方を支給すると明示する。",
+    "Axis Agencyは雇用主体・運営会社、採用の表ブランドはTempoFeliceを維持する。"
+  ],
+  "confirmedInThisRelease": [
+    "固定残業代は10時間分",
+    "基本給176,000円",
+    "80万円以上は50%算定"
+  ]
+}

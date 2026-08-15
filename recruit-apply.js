@@ -37,8 +37,7 @@
   };
   select.addEventListener('change', () => {
     update();
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({ event: 'select_job', recruit_store: select.value, recruit_source: source, page_path: location.pathname });
+    window.TFAnalytics?.track('recruit_job_select', { recruit_store: select.value, recruit_source: String(source).slice(0,120) });
   });
   privacy.addEventListener('change', update);
   update();
@@ -87,8 +86,7 @@
       application_mode: cfg.mode || 'google_form',
       page_path: location.pathname
     };
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push(payload);
+    window.TFAnalytics?.track('recruit_application_begin', { recruit_store: select.value, recruit_source: String(source).slice(0,120), application_mode: cfg.mode || 'google_form' });
     sessionStorage.setItem('tf_recruit_store', select.value);
     window.open(url, '_blank', 'noopener,noreferrer');
     status.textContent = '応募フォームを別タブで開きました。送信後はフォームの完了メッセージをご確認ください。';

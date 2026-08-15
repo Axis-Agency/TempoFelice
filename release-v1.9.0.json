@@ -1,0 +1,28 @@
+{
+  "release": "v1.9.0",
+  "date": "2026-08-15",
+  "theme": "REAL WORKSTYLE / COMPENSATION / TRAINING",
+  "base": "v1.8.0",
+  "publicFacts": {
+    "scheduledHoursPerMonth": 160,
+    "actualAverageHoursPerMonthGuide": 163,
+    "commonLeaveTime": "18:00-19:00",
+    "annualCompanyHolidays": 125,
+    "paidLeaveAcquisitionGuide": 5,
+    "desiredDaysOffPerMonth": 3,
+    "weekendDaysOffPerMonthMax": 2,
+    "baseSalary": 175000,
+    "attendanceAllowance": 10000,
+    "fixedOvertimeAllowance": 15000,
+    "fixedOvertimeHours": 10,
+    "basicTrainingDays": 3,
+    "technicalTrainingWeeksGuide": "1-2",
+    "modelSessionsGuide": 50,
+    "dailyClientCountGuide": "5-10"
+  },
+  "publishingNotes": [
+    "Annual holidays and annual paid leave are displayed separately.",
+    "Maternity/childcare leave is published as a track record only until the 100% rate denominator/period is confirmed.",
+    "Fixed overtime 10-hour count is carried forward from the existing terms and remains a final-confirmation item."
+  ]
+}

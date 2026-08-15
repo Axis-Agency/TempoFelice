@@ -1,0 +1,25 @@
+{
+  "version": "1.8.0",
+  "releaseDate": "2026-08-15",
+  "theme": "RECRUIT_BRAND_SEO_TRACKING",
+  "baseline": "1.7.0",
+  "strategy": {
+    "customerAcquisitionSeo": "minimal",
+    "recruitmentSeo": "priority",
+    "recruitmentBrand": "TempoFelice",
+    "legalEmployer": "合同会社Axis Agency"
+  },
+  "primaryRecruitCatchcopy": "好きな美容を、ずっと好きでいられる働き方へ。",
+  "newPages": [
+    "recruit-training.html",
+    "recruit-faq.html"
+  ],
+  "majorChanges": [
+    "採用ファーストビューをTempoFelice採用ブランドコピーへ更新",
+    "研修専用ページ追加",
+    "採用FAQ専用ページ追加",
+    "同意前イベントを送信キューへ積まない採用計測へ変更",
+    "CompanyページにAxis Agencyロゴを限定掲載",
+    "JobPostingの雇用主ロゴをAxis Agencyロゴへ修正"
+  ]
+}

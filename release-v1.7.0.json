@@ -1,0 +1,16 @@
+{
+  "version": "1.7.0",
+  "releaseDate": "2026-08-14",
+  "theme": "CORPORATE_RECRUIT_SEO",
+  "baseline": "1.6.6",
+  "strategy": {
+    "customerAcquisitionSeo": "minimal",
+    "recruitmentSeo": "priority",
+    "corporateTrust": "strengthened"
+  },
+  "newPages": [
+    "company.html",
+    "contact.html",
+    "recruit-job.html"
+  ]
+}

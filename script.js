@@ -43,40 +43,8 @@
     revealTargets.forEach(target => target.classList.add('is-visible'));
   }
 
-  // GTM-ready recruitment funnel events. No network request is made unless GTM/analytics is added later.
-  window.dataLayer = window.dataLayer || [];
+  // Recruitment analytics is consent-safe and centralized in analytics.js.
   const body = document.body;
-  if (body.dataset.recruitPage) {
-    window.dataLayer.push({
-      event: 'recruit_page_view',
-      recruit_page_type: body.dataset.recruitPage,
-      recruit_store: body.dataset.recruitStore || 'all',
-      page_path: location.pathname
-    });
-  }
-  document.addEventListener('click', event => {
-    const target = event.target.closest('[data-recruit-action]');
-    if (!target) return;
-    const action = target.dataset.recruitAction;
-    const store = target.dataset.recruitStore || body.dataset.recruitStore || 'all';
-    const common = {
-      recruit_action: action,
-      recruit_store: store,
-      recruit_source: sessionStorage.getItem('tf_recruit_source') || 'unknown',
-      link_url: target.href || location.href,
-      link_text: (target.textContent || '').trim().slice(0, 100),
-      page_path: location.pathname
-    };
-    window.dataLayer.push({ event: 'recruit_interaction', ...common });
-    const standardEvents = {
-      job_detail: 'select_job',
-      begin_application: 'begin_application',
-      application_form: 'begin_application',
-      line_consult: 'line_consult'
-    };
-    if (standardEvents[action]) window.dataLayer.push({ event: standardEvents[action], ...common });
-  });
-
   document.querySelectorAll('.share-job-button').forEach(button => {
     button.addEventListener('click', async () => {
       const status = button.closest('.job-hero-copy')?.querySelector('.share-status');
@@ -100,12 +68,7 @@
 
   document.querySelectorAll('.print-guide-button').forEach(button => {
     button.addEventListener('click', () => {
-      window.dataLayer.push({
-        event: 'recruit_interaction',
-        recruit_action: 'print_guide',
-        recruit_store: document.body.dataset.recruitStore || 'all',
-        page_path: location.pathname
-      });
+      window.TFAnalytics?.track('recruit_cta_click', { recruit_action: 'print_guide', recruit_store: document.body.dataset.recruitStore || 'all' });
       window.print();
     });
   });
